@@ -1,16 +1,68 @@
-# React + Vite
+# 🕹️ XOX — Tic Tac Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and responsive **Tic Tac Toe (XOX)** game built using **React.js**, **Vite**, and **Tailwind CSS**.  
+Play against a friend or challenge an AI opponent — now live and hosted on **GitHub Pages!** 🚀  
 
-Currently, two official plugins are available:
+🎮 **Live Demo:**  
+👉 [https://smartthug.github.io/Xox/](https://smartthug.github.io/Xox/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🧑‍🤝‍🧑 **Two Game Modes:**  
+  - Player vs Player (2-Player)  
+  - Player vs Computer (AI Mode)
+- 📱 **Responsive Design** (Mobile-friendly layout)
+- 🧠 **Simple AI** that can block or win strategically
+- 🏆 **Scoreboard** to track wins
+- 🕓 **Move History** for reviewing turns
+- ⚡ **Fast Build** with Vite
+- 🌐 **Deployed** on GitHub Pages
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Tech Stack
+
+| Technology | Purpose |
+|-------------|----------|
+| ⚛️ **React.js** | UI components & game logic |
+| 🌀 **Vite** | Fast bundler & dev server |
+| 🎨 **Tailwind CSS** | Styling & responsiveness |
+| 🌎 **GitHub Pages** | Deployment hosting |
+
+---
+
+## 📸 Screenshot
+
+
+<img width="1879" height="883" alt="image" src="https://github.com/user-attachments/assets/431fdd79-a1a1-4823-bef4-dd56824f638d" />
+
+## ⚙️ Setup & Installation
+
+Run this project locally with the following commands:
+
+# Clone this repository
+```git clone https://github.com/smartthug/Xox.git```
+
+# Navigate into the project directory
+```cd Xox```
+
+# Install dependencies
+`npm install`
+
+# Start the local server
+`npm run dev`
+
+
+Then open 👉 http://localhost:5173
+ to play locally.
+
+## 🚀 Deployment
+
+This app is deployed on GitHub Pages using the gh-pages package.
+
+To deploy manually:
+
+``npm run build
+npm run deploy``
